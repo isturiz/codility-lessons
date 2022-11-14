@@ -12,8 +12,7 @@ function solution(A) {
 
     diff[i] = Math.abs(rightSum - leftSum)
   }
-  let d = diff.sort((a,b)=>a-b)
-  console.log(d);
+  let d = diff.sort((a, b) => a - b)
   return d[0]
 }
 console.log(solution([1, 2, 8, 9]))
